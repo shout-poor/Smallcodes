@@ -5,8 +5,8 @@ import javax.faces.event.PhaseId;
 import javax.faces.event.PhaseListener;
 
 /**
- * JSFのPhaseEventの発火順を確認するためのPhaseListener
- * faces-config.xml に記述して使用する。
+ * The Phaselistener which outputs an order of the phase of JSF to a log.
+ * Usage: write into faces-config.xml
  */
 @SuppressWarnings("serial")
 public class CustomPhaseListener implements PhaseListener {

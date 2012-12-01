@@ -5,8 +5,8 @@ import oracle.adf.controller.v2.lifecycle.PagePhaseEvent;
 import oracle.adf.controller.v2.lifecycle.PagePhaseListener;
 
 /**
- * ADFのPagePhaseEventの発火順を確認するためのPagePhaseListener
- * META-INF/adf-settings.xmlで記述して使用する。
+ * The PagePhaselistener which outputs an order of the phase of ADF to a log.
+ * Usage: write into META-INF/adf-settings.xml
  */
 public class CustomPagePhaseListener implements PagePhaseListener {
 
